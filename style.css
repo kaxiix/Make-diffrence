@@ -1,0 +1,415 @@
+/* css reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* General text and baground color */
+
+.bg-dark {
+    background-color: #2E282A;
+}
+
+.bg-primary {
+    background-color: #CD5334;
+}
+
+.bg-secondary {
+    background-color: #17BEBB;
+
+}
+
+.bg-light1 {
+    background-color: #E7E5EE;
+}
+
+.bg-light2 {
+    background-color: #EDB88B;
+}
+
+
+.txt-dark {
+    color: #2E282A;
+}
+
+.txt-primary {
+    color: #CD5334;
+}
+
+.txt-secondary {
+    color: #17BEBB;
+
+}
+
+.txt-light1 {
+    color: #E7E5EE;
+}
+
+.txt-light2 {
+    color: #EDB88B;
+}
+
+.centercard {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 412px;
+    height: 45rem;
+    border-radius: 30px;
+
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+form {
+    padding: 20px;
+    padding-top: 50px;
+
+
+
+
+
+}
+
+
+
+.input {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2E282A;
+    color: #E7E5EE;
+    margin-bottom: 30px;
+    width: 85%;
+    font-size: 15px;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.cardhead {
+    padding-top: 20px;
+    padding-left: 40%;
+    padding-right: 35%;
+    font-size: 35px;
+    user-select: none;
+    color: #E7E5EE;
+    border-radius: 29px 29px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #191617;
+
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+.label {
+    padding-bottom: 10px;
+    font-size: 20px;
+    user-select: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.submitbtn {
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 30%;
+    background-color: #E7E5EE;
+}
+
+.submitbtn:hover {
+    background-color: #17BEBB;
+    color: #E7E5EE;
+
+}
+
+.seekcards {
+    background-color: #2E282A;
+    padding: 20px;
+    
+}
+
+
+
+#table_egce9p__table {
+    background-color: #CD5334;
+
+}
+
+
+
+
+.thead {
+    background-color: #2E282A;
+    color: #E7E5EE;
+}
+
+table.table_egce9p__table thead {
+    background-color: #2E282A;
+    color: #E7E5EE;
+}
+
+#table_egce9p_form_search:focus {
+    outline: none;
+}
+
+.navcontainer {
+
+    display: flex;
+    justify-content: center;
+    background-color: #2E282A;
+
+}
+
+
+.nav {
+    user-select: none;
+    width: 95%;
+    height: 60px;
+    border-radius: 0 0 20px 20px;
+    background-color: #191617;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    color: #E7E5EE;
+}
+
+.logo {
+    padding-right: 20vw;
+}
+
+.registernav {
+    background-color: #CD5334;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #E7E5EE;
+}
+
+
+.registernav:hover {
+    background-color: #c9735e;
+    color: #f6f4ff;
+}
+
+.cool-link {
+    display: inline-block;
+    color: E7E5EE;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #CD5334;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.bodyabout {
+    background-color: #2E282A;
+
+}
+
+.howitworks {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 90vh;
+    padding: 20px;
+    border-radius: 30px;
+
+
+}
+
+.center {
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.center p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    color: #E7E5EE;
+    user-select: none;
+}
+
+.howchild {
+    color: #E7E5EE;
+    line-height: 35px;
+    font-size: 30px;
+    font-family: 'Stick No Bills', sans-serif;
+    user-select: none;
+
+}
+
+.d {
+    font-size: 50px;
+    color: #CD5334;
+
+}
+
+.fullstop {
+    color: #CD5334;
+
+}
+
+.bodyhome {
+    background-color: #2E282A;
+}
+
+.motocontainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.moto {
+
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #CD5334;
+}
+
+.txt {
+    color: #EB5E28;
+
+    border-right: 0.2rem solid rgb(0, 0, 0);
+
+    animation: blinkTextCursor 300ms steps(40) infinite normal;
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255 .8);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.biggerparent {
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    display: grid;
+
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+    width: 60%;
+    
+    margin-top: 50px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.div4 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.div5 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div6 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+svg {
+    width: 100%;
+}
+
+.noselect{
+    user-select: none;
+}
+
+
+.hidden{
+    visibility: hidden;
+}
+
+.captcha{
+ 
+   padding-left: 40%;
+   padding-top: 50px;
+   font-size: 20px;
+   color: #E7E5EE;
+
+}
+
+.captchavalue{
+    padding: 10px;
+    margin-top: 10px;
+    color: #E7E5EE  ;
+    border: none;
+    background-color: #2E282A;
+    border-bottom: 2px solid #CD5334;
+}
+
+.captchavalue:focus{
+    outline: none;
+}
+
+.hidecaptcha{
+    display: none;
+}
